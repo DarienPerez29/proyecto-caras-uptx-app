@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fuentes para más información y como usar -->
+    <dimen name="info_title_1">@dimen/_18ssp</dimen>
+    <dimen name="info_desc_1">@dimen/_10ssp</dimen>
+
+</resources>
