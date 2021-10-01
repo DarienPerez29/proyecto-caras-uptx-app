@@ -11,13 +11,16 @@
         android:theme="@style/Theme.ProyectoCarasUPTx">
         <activity
             android:name=".InfoSection"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".HowTo"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".FaceScann"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".DashboardActivity"
             android:exported="true"

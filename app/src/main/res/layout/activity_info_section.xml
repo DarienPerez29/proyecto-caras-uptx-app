@@ -10,109 +10,117 @@
     <ImageView
         android:id="@+id/back_btn"
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/_15sdp"
-        android:layout_marginStart="@dimen/_35sdp"
-        android:layout_marginTop="@dimen/_45sdp"
+        android:layout_height="@dimen/h_icon_sec"
+        android:layout_marginStart="@dimen/horizontal_margin2"
+        android:layout_marginTop="@dimen/top_margin1"
+        android:adjustViewBounds="true"
         android:contentDescription="@string/back_btn_desc"
+        android:foregroundGravity="left"
+        android:padding="@dimen/_5sdp"
         android:src="@drawable/ic_back_btn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/dark" />
+        app:tint="@color/dark"
+        tools:ignore="RedundantDescriptionCheck" />
 
     <ImageView
         android:id="@+id/scann_main_logo"
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/_40sdp"
+        android:layout_height="@dimen/h_icon_main"
         android:contentDescription="@string/info_main_logo"
         android:src="@drawable/ic_info_main"
         app:layout_constraintBottom_toBottomOf="@+id/back_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/back_btn" />
+        app:layout_constraintTop_toTopOf="@+id/back_btn"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/menu_btn"
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/_12sdp"
-        android:layout_marginEnd="@dimen/_35sdp"
+        android:layout_height="@dimen/h_icon_sec"
+        android:layout_marginEnd="@dimen/horizontal_margin2"
+        android:adjustViewBounds="true"
         android:contentDescription="@string/back_btn_desc"
+        android:padding="@dimen/_7sdp"
         android:src="@drawable/ic_menu_btn"
         app:layout_constraintBottom_toBottomOf="@+id/back_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/back_btn"
-        app:tint="@color/dark" />
+        app:tint="@color/dark"
+        tools:ignore="RedundantDescriptionCheck" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/top_margin1"
         android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scann_main_logo">
+        app:layout_constraintTop_toBottomOf="@+id/back_btn">
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:paddingHorizontal="@dimen/_35sdp">
+            android:paddingHorizontal="@dimen/horizontal_margin1">
 
             <TextView
                 android:id="@+id/info_title_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/info_title_1"
-                android:textSize="@dimen/info_title_1"
+                android:layout_marginBottom="@dimen/title_1_linespace"
                 android:fontFamily="@font/montserrat_bold"
+                android:text="@string/info_title_1"
                 android:textColor="@color/dark"
-                android:layout_marginBottom="@dimen/_5sdp"/>
+                android:textSize="@dimen/title_1" />
 
             <TextView
                 android:id="@+id/info_desc_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/info_desc_1"
-                android:textSize="@dimen/info_desc_1"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
                 android:fontFamily="@font/montserrat_medium"
+                android:text="@string/info_desc_1"
                 android:textColor="@color/dark"
-                android:layout_marginBottom="@dimen/_10sdp"/>
+                android:textSize="@dimen/desc_1" />
 
             <ImageView
                 android:id="@+id/info_img_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/section_linespace"
                 android:contentDescription="@string/info_desc_img_1"
-                android:src="@drawable/misc_info_test_1"
-                android:layout_marginBottom="@dimen/_20sdp"/>
+                android:src="@drawable/misc_info_test_1" />
 
             <TextView
                 android:id="@+id/info_title_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/info_title_1"
-                android:textSize="@dimen/info_title_1"
+                android:layout_marginBottom="@dimen/title_1_linespace"
                 android:fontFamily="@font/montserrat_bold"
+                android:text="@string/info_title_1"
                 android:textColor="@color/dark"
-                android:layout_marginBottom="@dimen/_5sdp"/>
+                android:textSize="@dimen/title_1" />
 
             <TextView
                 android:id="@+id/info_desc_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/info_desc_1"
-                android:textSize="@dimen/info_desc_1"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
                 android:fontFamily="@font/montserrat_medium"
+                android:text="@string/info_desc_1"
                 android:textColor="@color/dark"
-                android:layout_marginBottom="@dimen/_10sdp"/>
+                android:textSize="@dimen/desc_1" />
 
             <ImageView
                 android:id="@+id/info_img_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/section_linespace"
                 android:contentDescription="@string/info_desc_img_1"
-                android:src="@drawable/misc_info_test_1"
-                android:layout_marginBottom="@dimen/_5sdp"/>
+                android:src="@drawable/misc_info_test_1" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
 

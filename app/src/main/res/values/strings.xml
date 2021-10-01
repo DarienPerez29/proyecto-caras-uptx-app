@@ -5,9 +5,9 @@
     <string name="login_comp_desc">Login component</string>
     <string name="back_btn_desc">Back button</string>
 
-    <string name="scann_btn_desc">Scann button</string>
-    <string name="howto_btn_desc">How to button</string>
-    <string name="info_btn_desc">Info button</string>
+    <string name="scann_btn_desc">Scann button icon</string>
+    <string name="howto_btn_desc">How to button icon</string>
+    <string name="info_btn_desc">Info button icon</string>
     <string name="scann_main_logo">Logo of scanning section</string>
     <string name="howto_main_logo">Logo of how to section</string>
     <string name="info_main_logo">Logo of info section</string>
@@ -20,12 +20,13 @@
     <string name="username_field">Usuario</string>
     <string name="pass_field">Contraseña</string>
     <string name="dashboard_title">Menú principal</string>
-    <string name="dashboard_subtitle">selecciona una acción</string>
+    <string name="dashboard_subtitle">elige una opción</string>
 
     <string name="scann_btn_title">Iniciar reconocimiento</string>
     <string name="howto_btn_title">¿Cómo usar?</string>
     <string name="info_btn_title">Más información</string>
 
+    <!-- Estados de analisis -->
     <string name="scann_prev">Por favor, centra tu rostro en la cámara</string>
     <string name="scann_load">Analizando…</string>
     <string name="scann_success">Verificado, pase autorizado</string>
@@ -36,15 +37,15 @@
     <string name="info_desc_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper
         urna imperdiet odio aliquam, vel ultricies magna molestie. Morbi feugiat lobortis orci, in
         dignissim neque. Morbi hendrerit enim eget venenatis ornare. Praesent in volutpat neque.
-        <br/><br/>
+        <br/><br/> \n\n
         In libero lorem, facilisis congue dignissim vel, rutrum eu augue. Nullam pharetra sollicitudin
         nulla, convallis accumsan sapien vulputate et. Vestibulum ante ipsum primis in faucibus orci
         luctus et ultrices posuere cubilia curae; Nulla et ex eu lacus luctus eleifend eget facilisis
         diam.
-        <br/><br/>
+        <br/><br/> \n\n
         Morbi semper venenatis quam, ac luctus sem dictum in. Nunc mollis ligula vitae felis efficitur
         condimentum. Nunc cursus mi non elementum viverra. Etiam ut luctus enim, vel lobortis purus.
-        <br/><br/>
+        <br/><br/> \n\n
         Nullam ac odio ex. Vivamus tristique tristique semper. In dictum consequat ultricies. Donec
         egestas purus faucibus, laoreet diam eu, lacinia magna. Mauris nisi justo, eleifend non lorem
         sed, malesuada commodo turpis. Donec ac neque id velit eleifend bibendum. Integer a varius nunc.</string>
