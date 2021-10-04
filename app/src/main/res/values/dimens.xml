@@ -2,6 +2,7 @@
 <resources>
     <!-- Formato para más información y como usar -->
     <dimen name="title_1">@dimen/_18ssp</dimen>
+    <dimen name="title_2">@dimen/_14ssp</dimen>
     <dimen name="desc_1">@dimen/_10ssp</dimen>
     <dimen name="title_1_linespace">@dimen/_5sdp</dimen>
     <dimen name="desc_1_linespace">@dimen/_15sdp</dimen>

@@ -5,52 +5,63 @@
     <string name="login_comp_desc">Login component</string>
     <string name="back_btn_desc">Back button</string>
 
-    <string name="scann_btn_desc">Scann button icon</string>
+    <string name="scan_btn_desc">Scann button icon</string>
     <string name="howto_btn_desc">How to button icon</string>
     <string name="info_btn_desc">Info button icon</string>
-    <string name="scann_main_logo">Logo of scanning section</string>
-    <string name="howto_main_logo">Logo of how to section</string>
-    <string name="info_main_logo">Logo of info section</string>
+    <string name="scan_main_logo">Scanning section logo</string>
+    <string name="howto_main_logo">How to section logo</string>
+    <string name="info_main_logo">Info section logo</string>
 
-    <!-- Para el usuario -->
+    <string name="login_error_logo">Login error logo</string>
+    <string name="forgotten_account_logo">Forgotten account logo</string>
+
+    <!-- Login -->
     <string name="login_title">Iniciar sesión</string>
     <string name="login_desc">ingresa los datos de una cuenta válida</string>
     <string name="login_btn">Ingresar</string>
-    <string name="forget_pass_btn"><u>Olvidé mi contraseña</u></string>
+    <string name="forget_pass_btn"><u>¿Olvidaste tu usuario o contraseña?</u></string>
     <string name="username_field">Usuario</string>
     <string name="pass_field">Contraseña</string>
+
+    <!-- Dialog de error de inicio de sesión y cuenta olvidada -->
+    <string name="login_error_title">Error de inicio de sesión</string>
+    <string name="login_error_desc">El usuario o la contraseña no son correctos, verifica tus datos.</string>
+    <string name="forgotten_account_title">Recuperar cuenta</string>
+    <string name="forgotten_account_desc">Para recuperar tu cuenta, contacta con el administrador de la aplicación.</string>
+    <string name="dialog_text_btn">OK</string>
+
+    <!-- Dashboard -->
     <string name="dashboard_title">Menú principal</string>
     <string name="dashboard_subtitle">elige una opción</string>
 
-    <string name="scann_btn_title">Iniciar reconocimiento</string>
+    <!-- Textos de menú principal -->
+    <string name="scan_btn_title">Iniciar reconocimiento</string>
     <string name="howto_btn_title">¿Cómo usar?</string>
     <string name="info_btn_title">Más información</string>
 
     <!-- Estados de analisis -->
-    <string name="scann_prev">Por favor, centra tu rostro en la cámara</string>
-    <string name="scann_load">Analizando…</string>
-    <string name="scann_success">Verificado, pase autorizado</string>
-    <string name="scann_failed">Verificado, pase denegado</string>
+    <string name="scan_prev">Por favor, centra tu rostro en la cámara</string>
+    <string name="scan_load">Analizando…</string>
+    <string name="scan_success">Verificado, pase autorizado</string>
+    <string name="scan_failed">Verificado, pase denegado</string>
 
-    <!-- Info content -->
+    <!-- Contenido de sección 'más información' -->
     <string name="info_title_1">Este es el título 1</string>
     <string name="info_desc_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper
         urna imperdiet odio aliquam, vel ultricies magna molestie. Morbi feugiat lobortis orci, in
         dignissim neque. Morbi hendrerit enim eget venenatis ornare. Praesent in volutpat neque.
-        <br/><br/> \n\n
+        <br /><br /> \n\n
         In libero lorem, facilisis congue dignissim vel, rutrum eu augue. Nullam pharetra sollicitudin
         nulla, convallis accumsan sapien vulputate et. Vestibulum ante ipsum primis in faucibus orci
         luctus et ultrices posuere cubilia curae; Nulla et ex eu lacus luctus eleifend eget facilisis
         diam.
-        <br/><br/> \n\n
+        <br /><br /> \n\n
         Morbi semper venenatis quam, ac luctus sem dictum in. Nunc mollis ligula vitae felis efficitur
         condimentum. Nunc cursus mi non elementum viverra. Etiam ut luctus enim, vel lobortis purus.
-        <br/><br/> \n\n
-        Nullam ac odio ex. Vivamus tristique tristique semper. In dictum consequat ultricies. Donec
+        <br /><br /> \n\n
+        Nullam ac odio ex. Vivamus tristiqu tristique semper. In dictum consequat ultricies. Donec
         egestas purus faucibus, laoreet diam eu, lacinia magna. Mauris nisi justo, eleifend non lorem
         sed, malesuada commodo turpis. Donec ac neque id velit eleifend bibendum. Integer a varius nunc.</string>
     <string name="info_desc_img_1">Foto 1 de la sección de información</string>
-
-
 
 </resources>

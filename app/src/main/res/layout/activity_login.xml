@@ -39,7 +39,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:cardBackgroundColor="@color/light"
-        app:cardCornerRadius="15dp"
+        app:cardCornerRadius="@dimen/_10sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,7 +76,7 @@
 
             <!-- Campo usuario -->
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/username_field"
+                android:id="@+id/username_layout"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -89,6 +89,7 @@
                 app:hintTextColor="@color/gold_main">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/username_field"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/ic_baseline_person"
@@ -103,7 +104,7 @@
 
             <!-- Campo contrasenia -->
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/password_field"
+                android:id="@+id/password_layout"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -112,11 +113,13 @@
                 app:boxBackgroundColor="@color/gray"
                 app:boxStrokeColor="@color/gold_main"
                 app:boxStrokeErrorColor="@color/red_main_s"
+                app:errorIconDrawable="@null"
                 app:errorIconTint="@color/red_main_s"
                 app:hintTextColor="@color/gold_main"
                 app:passwordToggleEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password_field"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/ic_baseline_lock"
@@ -132,17 +135,17 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/login_btn"
-                android:layout_width="@dimen/_175sdp"
+                android:layout_width="@dimen/_180sdp"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="@dimen/_40sdp"
                 android:backgroundTint="@color/red_main_s"
                 android:fontFamily="@font/montserrat_semi_bold"
                 android:letterSpacing="0"
-                android:paddingVertical="@dimen/_5sdp"
+                android:paddingVertical="@dimen/_8sdp"
                 android:text="@string/login_btn"
                 android:textAllCaps="false"
                 android:textSize="@dimen/_12sdp"
-                app:cornerRadius="@dimen/_4sdp">
+                app:cornerRadius="@dimen/_20sdp">
 
             </com.google.android.material.button.MaterialButton>
 
@@ -155,11 +158,11 @@
                 android:fontFamily="@font/montserrat_semi_bold_italic"
                 android:letterSpacing="0"
                 android:maxLines="1"
-                android:padding="@dimen/_10sdp"
+                android:paddingVertical="@dimen/_8sdp"
                 android:text="@string/forget_pass_btn"
                 android:textAllCaps="false"
                 android:textColor="@color/gold_main"
-                android:textSize="@dimen/_9sdp">
+                android:textSize="@dimen/_8ssp">
 
             </com.google.android.material.button.MaterialButton>
 
