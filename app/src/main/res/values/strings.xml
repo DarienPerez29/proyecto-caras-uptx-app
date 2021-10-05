@@ -5,8 +5,9 @@
     <string name="login_comp_desc">Login component</string>
     <string name="back_btn_desc">Back button</string>
     <string name="navigation_btn_desc">Navigation button</string>
+    <string name="social_media_desc">Social media</string>
 
-    <string name="scan_btn_desc">Scann button icon</string>
+    <string name="scan_btn_desc">Scanning button icon</string>
     <string name="howto_btn_desc">How to button icon</string>
     <string name="info_btn_desc">Info button icon</string>
     <string name="scan_main_logo">Scanning section logo</string>
@@ -21,6 +22,7 @@
     <string name="login_desc">ingresa los datos de una cuenta válida</string>
     <string name="login_btn">Ingresar</string>
     <string name="forget_pass_btn"><u>¿Olvidaste tu usuario o contraseña?</u></string>
+    <string name="info_btn">Más sobre la aplicación</string>
     <string name="username_field">Usuario</string>
     <string name="pass_field">Contraseña</string>
 
@@ -46,23 +48,36 @@
     <string name="scan_success">Verificado, pase autorizado</string>
     <string name="scan_failed">Verificado, pase denegado</string>
 
+    <!-- ====================================== -->
     <!-- Contenido de sección 'más información' -->
-    <string name="info_title_1">Este es el título 1</string>
-    <string name="info_desc_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper
-        urna imperdiet odio aliquam, vel ultricies magna molestie. Morbi feugiat lobortis orci, in
-        dignissim neque. Morbi hendrerit enim eget venenatis ornare. Praesent in volutpat neque.
-        <br /><br /> \n\n
-        In libero lorem, facilisis congue dignissim vel, rutrum eu augue. Nullam pharetra sollicitudin
-        nulla, convallis accumsan sapien vulputate et. Vestibulum ante ipsum primis in faucibus orci
-        luctus et ultrices posuere cubilia curae; Nulla et ex eu lacus luctus eleifend eget facilisis
-        diam.
-        <br /><br /> \n\n
-        Morbi semper venenatis quam, ac luctus sem dictum in. Nunc mollis ligula vitae felis efficitur
-        condimentum. Nunc cursus mi non elementum viverra. Etiam ut luctus enim, vel lobortis purus.
-        <br /><br /> \n\n
-        Nullam ac odio ex. Vivamus tristiqu tristique semper. In dictum consequat ultricies. Donec
-        egestas purus faucibus, laoreet diam eu, lacinia magna. Mauris nisi justo, eleifend non lorem
-        sed, malesuada commodo turpis. Donec ac neque id velit eleifend bibendum. Integer a varius nunc.</string>
-    <string name="info_desc_img_1">Foto 1 de la sección de información</string>
+    <!-- ====================================== -->
+    <string name="info_title_1">Reconocimiento Facial UPTx</string>
+    <string name="info_desc_1">La aplicación de Reconocimiento Facial de la Universidad Politécnica
+        de Tlaxcala es una herramienta para complementar las estrategias de prevención frente al
+        coronavirus, permitiendo un ingreso más seguro y controlado a las instalaciones.
+        \n\nCon la implementación de esta aplicación se busca mejorar la seguridad de los entornos de
+        estudio y de trabajo para nuestros docentes, alumnos y personal en general de la universidad.</string>
+
+    <string name="info_title_2">Acceso a la aplicación</string>
+    <string name="info_desc_2">Para tener acceso completo a la aplicación de reconocimiento facial y
+        a sus funcionalidades, es necesario iniciar sesión con una cuenta válida, la cual será proveida
+        por el administrador de la aplicación a los usuarios correspondientes.
+        \n\nEl acceso a esta herramienta no es público, y cualquier uso inapropiado o inicio de sesión no
+        autorizado será penalizado.</string>
+
+    <string name="info_title_3">Acerca de</string>
+    <string name="info_desc_3">La aplicación fue desarrollada por la Universidad Politécnica de Tlaxcala
+        \n\n<b>Equipo de desarrollo:</b>
+        \n\t•  Mtro. Jose Eduardo Xalteno Altamirano
+        \n\t•  Andrea Martínez
+        \n\t•  Darien Pérez Cano
+        </string>
+
+    <string name="info_title_4">Nosotros</string>
+    <string name="info_desc_4">Somos una institución con un fuerte compromiso social; actualmente contamos
+        con seis programas educativos en Ingeniería: Biotecnología, Química, Financiera, Tecnologías de la
+        Información, Industrial y Mecatrónica.</string>
+    <string name="info_desc_4_1"><b>Nuestras redes sociales:</b></string>
+    <string name="info_copyright">Copyright © 2021 Universidad Politécnica de Tlaxcala. Todos los derechos reservados.</string>
 
 </resources>

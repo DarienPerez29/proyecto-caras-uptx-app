@@ -6,6 +6,7 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.icu.text.IDNA;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -18,7 +19,7 @@ import java.util.Objects;
 public class LoginActivity extends AppCompatActivity {
 
     TextInputLayout userLayout, passLayout;
-    MaterialButton loginBtn, forgottenAccountBtn;
+    MaterialButton loginBtn, forgottenAccountBtn, infoBtn;
     Dialog loginErrorDialog, forgottenAccountDialog;
 
 
@@ -30,6 +31,7 @@ public class LoginActivity extends AppCompatActivity {
         userLayout = findViewById(R.id.username_layout);
         passLayout = findViewById(R.id.password_layout);
         loginBtn = findViewById(R.id.login_btn);
+        infoBtn = findViewById(R.id.info_btn);
         forgottenAccountBtn = findViewById(R.id.forget_pass_btn);
 
         loginErrorDialog = new Dialog(this);
@@ -43,6 +45,9 @@ public class LoginActivity extends AppCompatActivity {
         loginBtn.setOnClickListener(v -> {
             if (Validate.emptyFields(userLayout, passLayout)) loginAtempt();
         });
+
+        // Info button action
+        infoBtn.setOnClickListener(v -> startInfoActivity());
 
         // Forgotten account button action
         forgottenAccountBtn.setOnClickListener(v -> showForgottenAcountMessage());
@@ -59,6 +64,12 @@ public class LoginActivity extends AppCompatActivity {
         Intent load = new Intent(LoginActivity.this, DashboardActivity.class);
         startActivity(load);
         finish();
+    }
+
+    // Start info activity{
+    public void startInfoActivity(){
+        Intent load = new Intent(LoginActivity.this, InfoSection.class);
+        startActivity(load);
     }
 
     // Show dialog if login fails

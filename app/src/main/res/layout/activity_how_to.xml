@@ -13,14 +13,14 @@
         android:layout_height="@dimen/h_icon_sec"
         android:layout_marginStart="@dimen/horizontal_margin2"
         android:layout_marginTop="@dimen/top_margin1"
+        android:adjustViewBounds="true"
         android:contentDescription="@string/back_btn_desc"
+        android:foregroundGravity="left"
+        android:padding="@dimen/_5sdp"
         android:src="@drawable/ic_back_btn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/dark"
-        android:adjustViewBounds="true"
-        android:foregroundGravity="left"
-        android:padding="@dimen/_5sdp"/>
+        app:tint="@color/dark" />
 
     <ImageView
         android:id="@+id/scann_main_logo"
@@ -70,14 +70,6 @@
                 android:textColor="@color/dark"
                 android:textSize="@dimen/desc_1" />
 
-            <ImageView
-                android:id="@+id/info_img_1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/section_linespace"
-                android:contentDescription="@string/info_desc_img_1"
-                android:src="@drawable/misc_info_test_1" />
-
             <TextView
                 android:id="@+id/info_title_2"
                 android:layout_width="wrap_content"
@@ -98,13 +90,7 @@
                 android:textColor="@color/dark"
                 android:textSize="@dimen/desc_1" />
 
-            <ImageView
-                android:id="@+id/info_img_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/section_linespace"
-                android:contentDescription="@string/info_desc_img_1"
-                android:src="@drawable/misc_info_test_1" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
 

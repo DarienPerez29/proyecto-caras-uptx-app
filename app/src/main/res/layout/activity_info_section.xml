@@ -31,11 +31,11 @@
         android:layout_height="@dimen/h_icon_main"
         android:contentDescription="@string/info_main_logo"
         android:src="@drawable/ic_info_white"
-        app:tint="@color/gray"
         app:layout_constraintBottom_toBottomOf="@+id/back_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/back_btn"
+        app:tint="@color/gray"
         tools:ignore="ImageContrastCheck" />
 
     <ScrollView
@@ -67,21 +67,20 @@
 
             <TextView
                 android:id="@+id/info_desc_1"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/desc_1_linespace"
-                android:fontFamily="@font/montserrat_medium"
+                android:fontFamily="@font/montserrat_regular"
+                android:justificationMode="inter_word"
                 android:text="@string/info_desc_1"
                 android:textColor="@color/dark"
                 android:textSize="@dimen/desc_1" />
 
-            <ImageView
-                android:id="@+id/info_img_1"
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/section_linespace"
-                android:contentDescription="@string/info_desc_img_1"
-                android:src="@drawable/misc_info_test_1" />
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:background="@color/gray_light" />
 
             <TextView
                 android:id="@+id/info_title_2"
@@ -89,27 +88,171 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/title_1_linespace"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="@string/info_title_1"
+                android:text="@string/info_title_2"
                 android:textColor="@color/dark"
                 android:textSize="@dimen/title_1" />
 
             <TextView
                 android:id="@+id/info_desc_2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/desc_1_linespace"
-                android:fontFamily="@font/montserrat_medium"
-                android:text="@string/info_desc_1"
+                android:fontFamily="@font/montserrat_regular"
+                android:justificationMode="inter_word"
+                android:text="@string/info_desc_2"
                 android:textColor="@color/dark"
                 android:textSize="@dimen/desc_1" />
 
-            <ImageView
-                android:id="@+id/info_img_2"
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:background="@color/gray_light" />
+
+            <TextView
+                android:id="@+id/info_title_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/title_1_linespace"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/info_title_3"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/title_1" />
+
+            <TextView
+                android:id="@+id/info_desc_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/section_linespace"
-                android:contentDescription="@string/info_desc_img_1"
-                android:src="@drawable/misc_info_test_1" />
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:fontFamily="@font/montserrat_regular"
+                android:justificationMode="inter_word"
+                android:text="@string/info_desc_3"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/desc_1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:background="@color/gray_light" />
+
+            <TextView
+                android:id="@+id/info_title_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/title_1_linespace"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/info_title_4"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/title_1" />
+
+            <TextView
+                android:id="@+id/info_desc_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:fontFamily="@font/montserrat_regular"
+                android:justificationMode="inter_word"
+                android:text="@string/info_desc_4"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/desc_1" />
+
+            <TextView
+                android:id="@+id/info_desc_4_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/title_1_linespace"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center"
+                android:text="@string/info_desc_4_1"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/desc_1" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/desc_1_linespace">
+
+                <ImageView
+                    android:id="@+id/facebook_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/social_media_desc"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/ic_facebook"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.25"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.13"
+                    app:tint="@color/gray_mid" />
+
+                <ImageView
+                    android:id="@+id/twitter_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/social_media_desc"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/ic_twitter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.4167"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.13"
+                    app:tint="@color/gray_mid" />
+
+                <ImageView
+                    android:id="@+id/instagram_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/social_media_desc"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/ic_instagram"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5833"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.13"
+                    app:tint="@color/gray_mid" />
+
+                <ImageView
+                    android:id="@+id/youtube_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/social_media_desc"
+                    android:padding="@dimen/_5sdp"
+                    android:src="@drawable/ic_youtube"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.75"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintWidth_percent="0.13"
+                    app:tint="@color/gray_mid" />
+
+
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/info_copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/desc_1_linespace"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center"
+                android:text="@string/info_copyright"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/_7ssp" />
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
 

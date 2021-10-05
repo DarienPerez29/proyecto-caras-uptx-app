@@ -26,13 +26,13 @@
         android:layout_height="0dp"
         android:contentDescription="@string/login_comp_desc"
         android:src="@drawable/logo_color"
-        app:tint="@color/white_s"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.60" />
+        app:layout_constraintVertical_bias="0.60"
+        app:tint="@color/white_s" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7"
+        app:layout_constraintVertical_bias="0.6"
         app:layout_constraintWidth_percent="0.85">
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -82,7 +82,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/username_field"
                 android:paddingVertical="@dimen/_8sdp"
-                app:boxBackgroundColor="@color/gray_dark"
+                app:boxBackgroundColor="@color/gray_light"
                 app:boxStrokeColor="@color/gold"
                 app:boxStrokeErrorColor="@color/red_main_s"
                 app:errorIconTint="@color/red_main_s"
@@ -110,7 +110,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/pass_field"
                 android:paddingVertical="@dimen/_8sdp"
-                app:boxBackgroundColor="@color/gray_dark"
+                app:boxBackgroundColor="@color/gray_light"
                 app:boxStrokeColor="@color/gold"
                 app:boxStrokeErrorColor="@color/red_main_s"
                 app:errorIconDrawable="@null"
@@ -132,12 +132,11 @@
             </com.google.android.material.textfield.TextInputLayout>
             <!-- Fin de campo contrasenia -->
 
-
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/login_btn"
                 android:layout_width="@dimen/_180sdp"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="@dimen/_40sdp"
+                android:layout_marginVertical="@dimen/_30sdp"
                 android:backgroundTint="@color/red_main_s"
                 android:fontFamily="@font/montserrat_semi_bold"
                 android:letterSpacing="0"
@@ -155,7 +154,7 @@
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="@dimen/_175sdp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
                 android:fontFamily="@font/montserrat_semi_bold_italic"
                 android:letterSpacing="0"
                 android:maxLines="1"
@@ -170,5 +169,26 @@
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        android:id="@+id/info_btn"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:fontFamily="@font/montserrat_medium_italic"
+        android:letterSpacing="0"
+        android:text="@string/info_btn"
+        android:textAllCaps="false"
+        android:textColor="@color/white_s"
+        android:textSize="@dimen/_8ssp"
+        app:icon="@drawable/ic_info_filled"
+        app:iconGravity="textStart"
+        app:iconPadding="@dimen/_4sdp"
+        app:iconSize="@dimen/_11sdp"
+        app:iconTint="@color/white_s"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

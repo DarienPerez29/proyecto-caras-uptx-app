@@ -14,11 +14,12 @@
     <color name="green_dark_s">#44D71F</color>
     <color name="white_s">#FFFFFFFF</color>
 
-    <!-- Dinamic colors -->
+    <!-- Dynamic colors -->
     <color name="dark">#FFFFFF</color>
-    <color name="light">#202020</color>
+    <color name="light">#252525</color>
     <color name="gold">#FFC407</color>
     <color name="gray">#ACACAC</color>
     <color name="blue">#00CAFF</color>
-    <color name="gray_dark">#292929</color>
+    <color name="gray_light">#292929</color>
+    <color name="gray_mid">#B5B5B5</color>
 </resources>
