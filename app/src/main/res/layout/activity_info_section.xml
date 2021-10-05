@@ -2,10 +2,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/info_drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light"
     tools:context=".InfoSection">
+
 
     <ImageView
         android:id="@+id/back_btn"
@@ -28,27 +30,13 @@
         android:layout_width="wrap_content"
         android:layout_height="@dimen/h_icon_main"
         android:contentDescription="@string/info_main_logo"
-        android:src="@drawable/ic_info_main"
+        android:src="@drawable/ic_info_white"
+        app:tint="@color/gray"
         app:layout_constraintBottom_toBottomOf="@+id/back_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/back_btn"
         tools:ignore="ImageContrastCheck" />
-
-    <ImageView
-        android:id="@+id/menu_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/h_icon_sec"
-        android:layout_marginEnd="@dimen/horizontal_margin2"
-        android:adjustViewBounds="true"
-        android:contentDescription="@string/back_btn_desc"
-        android:padding="@dimen/_7sdp"
-        android:src="@drawable/ic_menu_btn"
-        app:layout_constraintBottom_toBottomOf="@+id/back_btn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/back_btn"
-        app:tint="@color/dark"
-        tools:ignore="RedundantDescriptionCheck" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -59,6 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/back_btn">
+
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
@@ -125,5 +114,6 @@
 
 
     </ScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

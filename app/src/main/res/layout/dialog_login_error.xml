@@ -29,13 +29,12 @@
                 android:layout_marginTop="@dimen/desc_1_linespace"
                 android:adjustViewBounds="true"
                 android:contentDescription="@string/login_error_logo"
-                android:forceDarkAllowed="false"
                 android:src="@drawable/ic_warning_filled"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintWidth_percent="0.15"
-                app:tint="@color/gold_main" />
+                app:tint="@color/gold" />
 
             <TextView
                 android:id="@+id/login_error_title"
@@ -68,14 +67,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="@dimen/desc_1_linespace"
-                android:backgroundTint="@color/gold_main"
+                android:backgroundTint="@color/gold"
                 android:fontFamily="@font/montserrat_bold"
                 android:letterSpacing="0"
                 android:paddingVertical="@dimen/_8sdp"
                 android:text="@string/dialog_text_btn"
                 android:textColor="@color/light"
                 android:textSize="@dimen/desc_1"
-                android:forceDarkAllowed="false"
                 app:cornerRadius="@dimen/_20sdp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

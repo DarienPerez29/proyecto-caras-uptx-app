@@ -25,8 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:contentDescription="@string/login_comp_desc"
-        android:forceDarkAllowed="false"
-        android:src="@drawable/logo_white"
+        android:src="@drawable/logo_color"
+        app:tint="@color/white_s"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.1"
@@ -82,11 +82,11 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/username_field"
                 android:paddingVertical="@dimen/_8sdp"
-                app:boxBackgroundColor="@color/gray"
-                app:boxStrokeColor="@color/gold_main"
+                app:boxBackgroundColor="@color/gray_dark"
+                app:boxStrokeColor="@color/gold"
                 app:boxStrokeErrorColor="@color/red_main_s"
                 app:errorIconTint="@color/red_main_s"
-                app:hintTextColor="@color/gold_main">
+                app:hintTextColor="@color/gold">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/username_field"
@@ -110,12 +110,12 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/pass_field"
                 android:paddingVertical="@dimen/_8sdp"
-                app:boxBackgroundColor="@color/gray"
-                app:boxStrokeColor="@color/gold_main"
+                app:boxBackgroundColor="@color/gray_dark"
+                app:boxStrokeColor="@color/gold"
                 app:boxStrokeErrorColor="@color/red_main_s"
                 app:errorIconDrawable="@null"
                 app:errorIconTint="@color/red_main_s"
-                app:hintTextColor="@color/gold_main"
+                app:hintTextColor="@color/gold"
                 app:passwordToggleEnabled="true">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -144,6 +144,7 @@
                 android:paddingVertical="@dimen/_8sdp"
                 android:text="@string/login_btn"
                 android:textAllCaps="false"
+                android:textColor="@color/white_s"
                 android:textSize="@dimen/_12sdp"
                 app:cornerRadius="@dimen/_20sdp">
 
@@ -161,11 +162,10 @@
                 android:paddingVertical="@dimen/_8sdp"
                 android:text="@string/forget_pass_btn"
                 android:textAllCaps="false"
-                android:textColor="@color/gold_main"
+                android:textColor="@color/gold"
                 android:textSize="@dimen/_8ssp">
 
             </com.google.android.material.button.MaterialButton>
-
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 

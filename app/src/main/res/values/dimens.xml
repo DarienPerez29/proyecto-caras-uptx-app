@@ -9,9 +9,9 @@
     <dimen name="section_linespace">@dimen/_30sdp</dimen>
 
     <!-- Margenes -->
-    <dimen name="horizontal_margin1">@dimen/_30sdp</dimen>
-    <dimen name="horizontal_margin2">@dimen/_25sdp</dimen>
-    <dimen name="top_margin1">@dimen/_25sdp</dimen>
+    <dimen name="horizontal_margin1">@dimen/_20sdp</dimen>
+    <dimen name="horizontal_margin2">@dimen/_15sdp</dimen>
+    <dimen name="top_margin1">@dimen/_15sdp</dimen>
 
     <!-- Tamaño iconos -->
     <dimen name="h_icon_main">@dimen/_25sdp</dimen>

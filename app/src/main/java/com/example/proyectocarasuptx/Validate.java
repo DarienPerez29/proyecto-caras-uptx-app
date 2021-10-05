@@ -6,7 +6,7 @@ import java.util.Objects;
 
 
 public class Validate {
-    private static final String EMPTY_ERR = "Este campo no puede estar vacío...";
+    private static final String EMPTY_ERR = "Este campo no puede estar vacío";
 
     // Verify all data
     public static boolean dataFields(TextInputLayout userLayout, TextInputLayout passLayout) {

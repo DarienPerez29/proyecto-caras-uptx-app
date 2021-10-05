@@ -4,6 +4,7 @@
     <string name="splash_comp_desc">Background of splash screen</string>
     <string name="login_comp_desc">Login component</string>
     <string name="back_btn_desc">Back button</string>
+    <string name="navigation_btn_desc">Navigation button</string>
 
     <string name="scan_btn_desc">Scann button icon</string>
     <string name="howto_btn_desc">How to button icon</string>

@@ -44,7 +44,7 @@
         android:fontFamily="@font/montserrat_medium"
         android:gravity="center"
         android:text="@string/dashboard_subtitle"
-        android:textColor="@color/gold_main"
+        android:textColor="@color/gold"
         android:textSize="@dimen/_8ssp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +53,7 @@
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_marginHorizontal="@dimen/horizontal_margin1"
         android:columnCount="1"
         android:rowCount="12"
         app:layout_constraintBottom_toBottomOf="parent"

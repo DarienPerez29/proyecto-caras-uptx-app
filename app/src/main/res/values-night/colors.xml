@@ -9,15 +9,16 @@
     <color name="gray_light_s">#F9F9F9</color>
     <color name="gray_mid_s">#ACACAC</color>
     <color name="gray_dark_s">#7D7D7D</color>
-    <color name="dark_s">#444444</color>
+    <color name="dark_s">#353535</color>
     <color name="green_light_s">#22AB00</color>
     <color name="green_dark_s">#44D71F</color>
     <color name="white_s">#FFFFFFFF</color>
 
     <!-- Dinamic colors -->
-    <color name="dark">#FFFFFFFF</color>
-    <color name="light">#282828</color>
-    <color name="gold_main">#FFC407</color>
-    <color name="gray">#2D2D2D</color>
+    <color name="dark">#FFFFFF</color>
+    <color name="light">#202020</color>
+    <color name="gold">#FFC407</color>
+    <color name="gray">#ACACAC</color>
     <color name="blue">#00CAFF</color>
+    <color name="gray_dark">#292929</color>
 </resources>

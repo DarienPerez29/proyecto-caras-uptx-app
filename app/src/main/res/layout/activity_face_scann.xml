@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white_s"
-    android:forceDarkAllowed="false"
+
     tools:context=".FaceScann">
 
     <ImageView
@@ -29,17 +29,19 @@
         android:layout_width="wrap_content"
         android:layout_height="@dimen/h_icon_main"
         android:contentDescription="@string/scan_main_logo"
-        android:src="@drawable/ic_faz_main"
+        android:src="@drawable/ic_faz_white"
         app:layout_constraintBottom_toBottomOf="@+id/back_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/back_btn" />
+        app:layout_constraintTop_toTopOf="@+id/back_btn"
+        app:tint="@color/red_main_s"/>
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginHorizontal="@dimen/_30sdp"
         android:columnCount="1"
+
         android:rowCount="6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -68,14 +70,14 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/white_s"
-                android:forceDarkAllowed="false">
+                android:background="@color/white_s">
 
                 <TextView
                     android:id="@+id/scann_status_text"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/montserrat_semi_bold"
+
                     android:gravity="center"
                     android:text="@string/scan_prev"
                     android:textColor="@color/dark_s"
@@ -107,9 +109,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/gray_light_s"
-                android:forceDarkAllowed="false">
-
+                android:background="@color/gray_light_s">
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.cardview.widget.CardView>
