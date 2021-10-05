@@ -51,42 +51,144 @@
             android:paddingHorizontal="@dimen/horizontal_margin1">
 
             <TextView
-                android:id="@+id/info_title_1"
+                android:id="@+id/howto_title_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/title_1_linespace"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="@string/info_title_1"
+                android:text="@string/howto_title_1"
                 android:textColor="@color/dark"
                 android:textSize="@dimen/title_1" />
 
             <TextView
-                android:id="@+id/info_desc_1"
+                android:id="@+id/howto_desc_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:fontFamily="@font/montserrat_regular"
+                android:justificationMode="inter_word"
+                android:text="@string/howto_desc_1"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/desc_1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:background="@color/gray_light" />
+
+            <TextView
+                android:id="@+id/howto_title_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/title_1_linespace"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/howto_title_2"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/title_1" />
+
+            <TextView
+                android:id="@+id/howto_desc_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginBottom="@dimen/desc_1_linespace"
-                android:fontFamily="@font/montserrat_medium"
-                android:text="@string/info_desc_1"
+                android:fontFamily="@font/montserrat_regular"
+                android:justificationMode="inter_word"
+                android:text="@string/howto_desc_2"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/desc_1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:background="@color/gray_light" />
+
+            <TextView
+                android:id="@+id/howto_title_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/title_1_linespace"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/howto_title_3"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/title_1" />
+
+            <TextView
+                android:id="@+id/howto_desc_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:fontFamily="@font/montserrat_regular"
+                android:justificationMode="inter_word"
+                android:text="@string/howto_desc_3"
                 android:textColor="@color/dark"
                 android:textSize="@dimen/desc_1" />
 
             <TextView
-                android:id="@+id/info_title_2"
+                android:id="@+id/howto_title_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semi_bold_italic"
+                android:text="@string/howto_title_3_1"
+                android:textColor="@color/gold"
+                android:textSize="@dimen/title_2" />
+
+            <TextView
+                android:id="@+id/howto_desc_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:fontFamily="@font/montserrat_regular"
+                android:justificationMode="inter_word"
+                android:text="@string/howto_desc_3_1"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/desc_1" />
+
+            <TextView
+                android:id="@+id/howto_title_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semi_bold_italic"
+                android:text="@string/howto_title_3_2"
+                android:textColor="@color/gold"
+                android:textSize="@dimen/title_2" />
+
+            <TextView
+                android:id="@+id/howto_desc_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:fontFamily="@font/montserrat_regular"
+                android:justificationMode="inter_word"
+                android:text="@string/howto_desc_3_2"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/desc_1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:background="@color/gray_light" />
+
+            <TextView
+                android:id="@+id/howto_title_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/title_1_linespace"
                 android:fontFamily="@font/montserrat_bold"
-                android:text="@string/info_title_1"
+                android:text="@string/howto_title_4"
                 android:textColor="@color/dark"
                 android:textSize="@dimen/title_1" />
 
             <TextView
-                android:id="@+id/info_desc_2"
+                android:id="@+id/howto_desc_4"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginBottom="@dimen/desc_1_linespace"
-                android:fontFamily="@font/montserrat_medium"
-                android:text="@string/info_desc_1"
+                android:fontFamily="@font/montserrat_regular"
+                android:justificationMode="inter_word"
+                android:text="@string/howto_desc_4"
                 android:textColor="@color/dark"
                 android:textSize="@dimen/desc_1" />
 

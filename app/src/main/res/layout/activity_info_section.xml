@@ -238,8 +238,6 @@
                     app:tint="@color/gray_mid" />
 
 
-
-
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView

@@ -66,7 +66,7 @@
         autorizado será penalizado.</string>
 
     <string name="info_title_3">Acerca de</string>
-    <string name="info_desc_3">La aplicación fue desarrollada por la Universidad Politécnica de Tlaxcala
+    <string name="info_desc_3">La aplicación fue desarrollada por la Universidad Politécnica de Tlaxcala.
         \n\n<b>Equipo de desarrollo:</b>
         \n\t•  Mtro. Jose Eduardo Xalteno Altamirano
         \n\t•  Andrea Martínez
@@ -80,4 +80,42 @@
     <string name="info_desc_4_1"><b>Nuestras redes sociales:</b></string>
     <string name="info_copyright">Copyright © 2021 Universidad Politécnica de Tlaxcala. Todos los derechos reservados.</string>
 
+    <!-- ====================================== -->
+    <!--    Contenido de sección 'cómo usar'    -->
+    <!-- ====================================== -->
+    <string name="howto_title_1">Iniciar reconocimiento</string>
+    <string name="howto_desc_1">En el menú principal, selecciona el botón grande de color rojo con la
+        leyenda <i>\"Iniciar reconocimiento\"</i> para empezar con la identificación de rostros.
+        \n\nCuando la sección de "Iniciar reconocimiento" inicie, el brillo de la pantalla aumentará
+        al máximo, y la cámara frontal será activada, mostrando a la mitad de la pantalla lo que ve
+        la cámara y una leyenda que dice <i>\"Por favor, centra tu rostro en la cámara\"</i>.
+        \n\nUna vez realizado lo anterior, la aplicación estará lista para validar rostros.</string>
+    <string name="howto_title_2">Proceso de reconocimiento</string>
+    <string name="howto_desc_2">El proceso de reconocimiento de rostros se realiza de forma automática:
+        es decir, una vez se inicie la sección de <i>\"Iniciar reconocimiento\"</i>, la cámara frontal
+        del dispositivo identificará los rostros que sean válidos para un análisis.
+        \n\nPara que un rostro sea identificado de forma adecuada, la persona debe asegurarse que su rostro,
+        preferentemente descubierto, cubra con la sección completa de la cámara.
+        \n\nUna vez el rostro de la persona se encuentre en una posición adecuada, la leyenda de la pantalla
+        cambiará a <i>\"Analizando...\"</i>. Se deberá de mantener la posición del rostro hasta que se muestre
+        un resultado positivo o negativo.</string>
+    <string name="howto_title_3">Resultados de análisis</string>
+    <string name="howto_desc_3">Al finalizar el análisis del rostro, existe la posibilidad de obtener
+        dos resultados distintos: <b>positivo</b> y <b>negativo</b>.</string>
+    <string name="howto_title_3_1">Resultado positivo</string>
+    <string name="howto_desc_3_1">Un resultado positivo indica que la persona en cuestión está autorizada
+        para acceder a la universidad.
+        \n\nEste tipo de resultados puede ser identificado por un color verde y una leyenda que dice
+        <i>\"Verificado, pase autorizado\"</i>, características que se muestran al final del análisis.</string>
+    <string name="howto_title_3_2">Resultado negativo</string>
+    <string name="howto_desc_3_2">Un resultado negativo indica que la persona en cuestión <b>no</b> está autorizada
+        para acceder a la universidad.
+        \n\nEste tipo de resultados puede ser identificado por un color rojo y una leyenda que dice
+        <i>\"Verificado, pase denegado\"</i>, características que se muestran al final del análisis.</string>
+    <string name="howto_title_4">Solución de problemas</string>
+    <string name="howto_desc_4">En caso de presentar alguno de los siguientes problemas o situaciones, deberá
+        contactar con el administrador de la aplicación:
+        \n\n\t•  Pérdida de usuario o contraseña
+        \n\t•  La identificación de rostros no funciona
+        \n\t•  La aplicación no abre o funciona mal</string>
 </resources>
