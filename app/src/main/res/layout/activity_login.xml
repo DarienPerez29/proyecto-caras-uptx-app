@@ -97,7 +97,7 @@
                     android:fontFamily="@font/montserrat_medium"
                     android:maxLines="1"
                     android:textSize="@dimen/_9ssp"
-                    android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+                    android:digits="abcdefghijklmnopqrstuvwxyz1234567890"
                     android:inputType="textFilter"/>
 
             </com.google.android.material.textfield.TextInputLayout>

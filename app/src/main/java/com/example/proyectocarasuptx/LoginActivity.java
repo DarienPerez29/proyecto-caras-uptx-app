@@ -9,6 +9,8 @@ import android.graphics.drawable.ColorDrawable;
 import android.icu.text.IDNA;
 import android.os.Bundle;
 import android.text.Editable;
+import android.text.InputFilter;
+import android.text.Spanned;
 import android.text.TextWatcher;
 
 import com.google.android.material.button.MaterialButton;
@@ -51,6 +53,15 @@ public class LoginActivity extends AppCompatActivity {
 
         // Forgotten account button action
         forgottenAccountBtn.setOnClickListener(v -> showForgottenAcountMessage());
+
+        // Filters
+        Objects.requireNonNull(userLayout.getEditText()).setFilters(new InputFilter[] {
+                new InputFilter.AllCaps() {
+                    public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
+                        return String.valueOf(source).toLowerCase().replace(" ","");
+                    }
+                }
+        });
     }
 
     // Login atempt

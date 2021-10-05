@@ -240,11 +240,29 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
+                android:background="@color/gray_light" />
+
+            <TextView
+                android:id="@+id/info_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/desc_1_linespace"
+                android:fontFamily="@font/montserrat_italic"
+                android:gravity="center"
+                android:text="@string/info_version"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/_7ssp" />
+
             <TextView
                 android:id="@+id/info_copyright"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/desc_1_linespace"
+                android:layout_marginTop="@dimen/title_1_linespace"
+                android:layout_marginBottom="@dimen/desc_1_linespace"
                 android:fontFamily="@font/montserrat_regular"
                 android:gravity="center"
                 android:text="@string/info_copyright"
