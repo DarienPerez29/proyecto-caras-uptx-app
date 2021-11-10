@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final long delay = 3000;
+        final long delay = 2000;
 
         TimerTask loadingLogin = new TimerTask(){
             @Override

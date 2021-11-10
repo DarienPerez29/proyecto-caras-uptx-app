@@ -28,12 +28,7 @@ public class DashboardActivity extends AppCompatActivity implements View.OnClick
         infoBtn.setOnClickListener(this);
 
         backBtn = findViewById(R.id.back_btn);
-        backBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onBackPressed();
-            }
-        });
+        backBtn.setOnClickListener(v -> onBackPressed());
     }
 
 

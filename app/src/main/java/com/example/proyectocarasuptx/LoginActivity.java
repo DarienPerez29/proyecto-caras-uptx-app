@@ -6,7 +6,6 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.icu.text.IDNA;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.InputFilter;
@@ -45,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
 
         // Login button action
         loginBtn.setOnClickListener(v -> {
-            if (Validate.emptyFields(userLayout, passLayout)) loginAtempt();
+            if (ValidateEmptyFields.emptyFields(userLayout, passLayout)) loginAtempt();
         });
 
         // Info button action
@@ -55,10 +54,10 @@ public class LoginActivity extends AppCompatActivity {
         forgottenAccountBtn.setOnClickListener(v -> showForgottenAcountMessage());
 
         // Filters
-        Objects.requireNonNull(userLayout.getEditText()).setFilters(new InputFilter[] {
+        Objects.requireNonNull(userLayout.getEditText()).setFilters(new InputFilter[]{
                 new InputFilter.AllCaps() {
                     public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
-                        return String.valueOf(source).toLowerCase().replace(" ","");
+                        return String.valueOf(source).toLowerCase().replace(" ", "");
                     }
                 }
         });
@@ -66,25 +65,25 @@ public class LoginActivity extends AppCompatActivity {
 
     // Login atempt
     public void loginAtempt() {
-        if (Validate.dataFields(userLayout, passLayout)) startNextAtempt();
+        if (ValidateEmptyFields.dataFields(userLayout, passLayout)) startNextAtempt();
         else showLoginError();
     }
 
-    // Start next activity
+    // Start dashboard activity
     public void startNextAtempt() {
         Intent load = new Intent(LoginActivity.this, DashboardActivity.class);
         startActivity(load);
         finish();
     }
 
-    // Start info activity{
-    public void startInfoActivity(){
+    // Start info activity
+    public void startInfoActivity() {
         Intent load = new Intent(LoginActivity.this, InfoSection.class);
         startActivity(load);
     }
 
     // Show dialog if login fails
-    public void showLoginError(){
+    public void showLoginError() {
         loginErrorDialog.setContentView(R.layout.dialog_login_error);
         loginErrorDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
 
@@ -96,15 +95,15 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     // Show dialog for forgoten password
-    public void showForgottenAcountMessage(){
+    public void showForgottenAcountMessage() {
         forgottenAccountDialog.setContentView(R.layout.dialog_forgotten_account);
         forgottenAccountDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
 
         MaterialButton confirmBtn = forgottenAccountDialog.findViewById(R.id.forgotten_account_btn);
 
-         confirmBtn.setOnClickListener(v -> forgottenAccountDialog.dismiss());
+        confirmBtn.setOnClickListener(v -> forgottenAccountDialog.dismiss());
 
-         forgottenAccountDialog.show();
+        forgottenAccountDialog.show();
     }
 
     // Watcher for username field
@@ -119,7 +118,7 @@ public class LoginActivity extends AppCompatActivity {
 
         @Override
         public void afterTextChanged(Editable s) {
-            Validate.clearEmptyErrorWatcher(userLayout);
+            ValidateEmptyFields.clearEmptyErrorWatcher(userLayout);
         }
     };
 
@@ -135,7 +134,7 @@ public class LoginActivity extends AppCompatActivity {
 
         @Override
         public void afterTextChanged(Editable s) {
-            Validate.clearEmptyErrorWatcher(passLayout);
+            ValidateEmptyFields.clearEmptyErrorWatcher(passLayout);
         }
     };
 }

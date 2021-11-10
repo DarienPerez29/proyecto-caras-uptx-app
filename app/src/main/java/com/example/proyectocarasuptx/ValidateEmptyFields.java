@@ -5,7 +5,7 @@ import com.google.android.material.textfield.TextInputLayout;
 import java.util.Objects;
 
 
-public class Validate {
+public class ValidateEmptyFields {
     private static final String EMPTY_ERR = "Este campo no puede estar vacío";
 
     // Verify all data
