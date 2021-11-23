@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.proyectocarasuptx">
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
     <application
         android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,15 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoCarasUPTx">
         <activity
-            android:name=".InfoSection"
+            android:name=".InfoActivity"
             android:exported="true"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".HowTo"
+            android:name=".HowToActivity"
             android:exported="true"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".FaceScann"
+            android:name=".ScanActivity"
             android:exported="true"
             android:screenOrientation="portrait"/>
         <activity

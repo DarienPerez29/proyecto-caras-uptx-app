@@ -11,8 +11,9 @@
     <string name="howto_btn_desc">How to button icon</string>
     <string name="info_btn_desc">Info button icon</string>
     <string name="scan_main_logo">Scanning section logo</string>
-    <string name="howto_main_logo">How to section logo</string>
+    <string name="howto_main_logo">How to section lqqogo</string>
     <string name="info_main_logo">Info section logo</string>
+    <string name="scan_area">Scan area</string>
 
     <string name="login_error_logo">Login error logo</string>
     <string name="forgotten_account_logo">Forgotten account logo</string>
@@ -43,10 +44,10 @@
     <string name="info_btn_title">Más información</string>
 
     <!-- Estados de analisis -->
-    <string name="scan_prev">Por favor, centra tu rostro en la cámara</string>
-    <string name="scan_load">Analizando…</string>
-    <string name="scan_success">Verificado, pase autorizado</string>
-    <string name="scan_failed">Verificado, pase denegado</string>
+    <string name="loading">Cargando...</string>
+    <string name="scan_success">Pase autorizado</string>
+    <string name="scan_failed">Pase denegado</string>
+    <string name="scan_caution">Revisar identificación</string>
 
     <!-- ====================================== -->
     <!-- Contenido de sección 'más información' -->

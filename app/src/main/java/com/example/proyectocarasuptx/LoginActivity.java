@@ -78,7 +78,7 @@ public class LoginActivity extends AppCompatActivity {
 
     // Start info activity
     public void startInfoActivity() {
-        Intent load = new Intent(LoginActivity.this, InfoSection.class);
+        Intent load = new Intent(LoginActivity.this, InfoActivity.class);
         startActivity(load);
     }
 

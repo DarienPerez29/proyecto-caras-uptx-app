@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-public class HowTo extends AppCompatActivity {
+public class HowToActivity extends AppCompatActivity {
 
     ImageView backBtn;
 

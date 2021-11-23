@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_s"
+    tools:context=".ScanActivity">
+
+    <FrameLayout
+        android:id="@+id/rim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_s">
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/h_icon_sec"
+        android:layout_marginStart="@dimen/horizontal_margin2"
+        android:layout_marginTop="@dimen/top_margin1"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/back_btn_desc"
+        android:foregroundGravity="left"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/ic_back_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white_s"
+        tools:ignore="RedundantDescriptionCheck" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/h_icon_main"
+        android:contentDescription="@string/scan_main_logo"
+        android:src="@drawable/ic_faz_white"
+        app:layout_constraintBottom_toBottomOf="@+id/back_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/back_btn"
+        app:tint="@color/white_s" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/scan_status_bg"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/scan_area"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/white_s">
+
+        <TextView
+            android:id="@+id/scan_status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="@dimen/_5sdp"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:gravity="center"
+            android:text="@string/loading"
+            android:textAllCaps="false"
+            android:textColor="@color/dark_s"
+            android:textSize="@dimen/_15ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/scan_area"
+        android:layout_width="@dimen/_240sdp"
+        android:layout_height="@dimen/_240sdp"
+        android:background="@drawable/cloors_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/scan_area" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

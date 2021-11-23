@@ -7,7 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-public class InfoSection extends AppCompatActivity {
+public class InfoActivity extends AppCompatActivity {
 
     ImageView backBtn, facebookBtn, twitterBtn, instagramBtn, youtubeBtn;
     private static final String FB_URL = "https://www.facebook.com/UPTxOficial/";
@@ -18,7 +18,7 @@ public class InfoSection extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_info_section);
+        setContentView(R.layout.activity_info);
 
         backBtn = findViewById(R.id.back_btn);
         facebookBtn = findViewById(R.id.facebook_btn);
