@@ -27,8 +27,8 @@
         <entry key="..\:/Users/dapec/AndroidStudioProjects/ProyectoCarasUPTx/app/src/main/res/layout/activity_how_to.xml" value="0.22" />
         <entry key="..\:/Users/dapec/AndroidStudioProjects/ProyectoCarasUPTx/app/src/main/res/layout/activity_info.xml" value="0.268859649122807" />
         <entry key="..\:/Users/dapec/AndroidStudioProjects/ProyectoCarasUPTx/app/src/main/res/layout/activity_info_section.xml" value="0.5" />
-        <entry key="..\:/Users/dapec/AndroidStudioProjects/ProyectoCarasUPTx/app/src/main/res/layout/activity_login.xml" value="0.26132246376811596" />
-        <entry key="..\:/Users/dapec/AndroidStudioProjects/ProyectoCarasUPTx/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/ProyectoCarasUPTx/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/dapec/AndroidStudioProjects/ProyectoCarasUPTx/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/dapec/AndroidStudioProjects/ProyectoCarasUPTx/app/src/main/res/layout/activity_scan.xml" value="0.181140350877193" />
         <entry key="..\:/Users/dapec/AndroidStudioProjects/ProyectoCarasUPTx/app/src/main/res/layout/dialog_account_error.xml" value="0.25" />
         <entry key="..\:/Users/dapec/AndroidStudioProjects/ProyectoCarasUPTx/app/src/main/res/layout/dialog_account_forgotten.xml" value="0.32587719298245615" />
@@ -39,7 +39,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17_PREVIEW" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
